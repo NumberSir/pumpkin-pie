@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.chailotl.pumpkin_pie.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"RedirectItems",
+		"InjectItem"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:egg"
+		},
+		"O": {
+			"item": "farmersdelight:pie_crust"
+		},
+		"a": {
+			"item": "farmersdelight:pumpkin_slice"
+		},
+		"x": {
+			"item": "minecraft:sugar"
+		}
+	},
+	"pattern": [
+		" # ",
+		"aaa",
+		"xOx"
+	],
+	"result": {
+		"item": "minecraft:pumpkin_pie"
+	},
+	"show_notification": true
+}

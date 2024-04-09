@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "pumpkin_pie",
+	"version": "1.0.0",
+	"name": "Pumpkin Pie Delight",
+	"description": "A Farmer's Delight addon that makes pumpkin pies placeable and sliceable",
+	"authors": [
+		"Chai"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/pumpkin-pie-delight/",
+		"sources": "https://github.com/chailotl/pumpkin-pie",
+		"issues": "https://github.com/chailotl/pumpkin-pie/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/SuZb3aJUCx"
+			}
+		}
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/pumpkin_pie/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chailotl.pumpkin_pie.PumpkinPieDelight"
+		]
+	},
+	"mixins": [
+		"pumpkin_pie.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"farmersdelight": "~1.20.1-2.0.8+refabricated"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
