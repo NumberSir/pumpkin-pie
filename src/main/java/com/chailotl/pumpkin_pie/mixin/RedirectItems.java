@@ -26,7 +26,8 @@ public class RedirectItems
 			ordinal = 0
 		),
 		method = "<clinit>")
-	private static Item pumpkinPie(Item.Settings settings) {
+	private static Item pumpkinPie(Item.Settings settings)
+	{
 		// Just to remove the food component
 		return new Item(new Item.Settings());
 	}

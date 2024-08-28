@@ -7,11 +7,13 @@
 	],
 	"result": [
 		{
-			"count": 4,
-			"item": "farmersdelight:pumpkin_pie_slice"
+			"item": {
+				"count": 4,
+				"id": "farmersdelight:pumpkin_pie_slice"
+			}
 		}
 	],
 	"tool": {
-		"tag": "c:tools/knives"
+		"tag": "c:tools/knife"
 	}
 }

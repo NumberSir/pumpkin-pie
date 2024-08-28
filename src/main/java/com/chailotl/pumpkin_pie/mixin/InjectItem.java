@@ -1,6 +1,6 @@
 package com.chailotl.pumpkin_pie.mixin;
 
-import com.chailotl.pumpkin_pie.PumpkinPieDelight;
+import com.chailotl.pumpkin_pie.Main;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.Items;
@@ -21,7 +21,7 @@ public class InjectItem
 	{
 		if (ctx.getStack().isOf(Items.PUMPKIN_PIE))
 		{
-			PumpkinPieDelight.PUMPKIN_PIE_ITEM.useOnBlock(ctx);
+			Main.PUMPKIN_PIE_ITEM.useOnBlock(ctx);
 			cir.setReturnValue(ActionResult.SUCCESS);
 		}
 	}
